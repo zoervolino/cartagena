@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'AerologicaRegular-K7day';
+    src: url("/Users/zoeervolino/Documents/zoe/AerologicaRegular-K7day.ttf") format('truetype');
+    font-weight: thin;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Love Letters';
+    src: url("/Users/zoeervolino/Documents/zoe/Love Letters.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WarioLand4CHMC';
+    src: url("/Users/zoeervolino/Documents/zoe/Warioland4chmc-VApe.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  font-size: 50px;
+  font-family: WarioLand4CHMC;
+  text-align:center;
+  color:DarkSlateGrey;
+}
+
+  
+h1{
+  font-family: AerologicaRegular-K7day;
+  font-size: 60pt;
+  font-weight: thin;
+  color:MidnightBlue;
+}
+
+h2,h3,h4,h5,h6{
+  font-family: Love Letters;
+  font-size: 40pt;
+  color:LightSeaGreen;
+}
+
+h7{
+  font-family: Love Letters;
+  font-size: 38pt;
+  color:MidnightBlue;
+}
+
+a1{
+  font-size: 34px;
+  font-family: WarioLand4CHMC;
+  text-align:center;
+  color:DarkSlateGrey;
+}
+
+a2{
+  font-size: 34px;
+  font-family: WarioLand4CHMC;
+  text-align:center;
+  color:Navy;
