@@ -7,9 +7,9 @@
 }
 
 @font-face {
-    font-family: 'Love Letters';
-    src: url("/Users/zoeervolino/Documents/zoe/Love Letters.ttf") format('truetype');
-    font-weight: bold;
+    font-family: '3Dumb';
+    src: url("/Users/zoeervolino/Documents/zoe/3Dumb.ttf") format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -24,38 +24,34 @@ body{
   font-size: 50px;
   font-family: WarioLand4CHMC;
   text-align:center;
-  color:DarkSlateGrey;
+  color:MidnightBlue;
 }
 
-  
 h1{
   font-family: AerologicaRegular-K7day;
   font-size: 60pt;
   font-weight: thin;
-  color:MidnightBlue;
+  color:Teal;
 }
 
-h2,h3,h4,h5,h6{
-  font-family: Love Letters;
-  font-size: 40pt;
-  color:LightSeaGreen;
+h2{
+  font-family: AerologicaRegular-K7day;
+  font-size: 50pt;
+  font-weight: thin;
+  color:Purple;
+}
+
+h3,h4,h5,h6{
+  font-size: 50px;
+  font-family: WarioLand4CHMC;
+  text-align:center;
+  color:Violet;
 }
 
 h7{
-  font-family: Love Letters;
+  font-family: 3Dumb;
   font-size: 38pt;
   color:MidnightBlue;
 }
 
-a1{
-  font-size: 34px;
-  font-family: WarioLand4CHMC;
-  text-align:center;
-  color:DarkSlateGrey;
-}
-
-a2{
-  font-size: 34px;
-  font-family: WarioLand4CHMC;
-  text-align:center;
-  color:Navy;
+ `r emo::ji("dizzy")`

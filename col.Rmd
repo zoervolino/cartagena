@@ -1,0 +1,216 @@
+---
+title: ""
+output: html_document
+
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+
+self_contained: false
+
+css: zme_style1.css
+---
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+    background-color:HoneyDew;
+    	cursor: url('/Users/zoeervolino/Documents/zoe/cursor.cur'), default;
+}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(embedr)
+library(vembedr)
+library(tinytex)
+library(emo)
+library(rmdprotectr)
+library(rmarkdown)
+```
+
+<font size=80>
+<h1 style=>
+`r emo::ji("dizzy")`ZME`r emo::ji("dizzy")`
+</h1>
+</font>
+
+```{r image1, echo=FALSE, out.width="100%", fig.align='center'}
+
+fruta <- "cartagena/07530025.JPG"
+knitr::include_graphics(fruta)
+
+```
+
+<h2>ZOE MORALES ERVOLINO</h2> <h3> is a person doing person things. Enjoy the film photography she captured during her recent voyages to the Colombian coastal cities of Cartagena, Barranquilla, and the nearby island of San Andres.</h3>
+
+<br>
+<b><center>   1. Mercado de Bazurto</center>
+```{r image2, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530023.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+<center>    2. Mangostino</center>
+
+```{r image3, echo=FALSE, out.width="70%", fig.align='center'}
+
+a <- "cartagena/07530022.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+<center>    3. Bazurto</center>
+```{r image4, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530021.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+ <center>   4. Almuerzo Estilo Caleño</center>
+```{r image5, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530020.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+<center>  5. Centro Comercial La Castellana</center>
+
+```{r image6, echo=FALSE, out.width="70%", fig.align='center'}
+
+a <- "cartagena/07530012.JPG"
+knitr::include_graphics(a)
+
+```
+
+<br>
+
+  <center>6. Carnicería</center>
+```{r image7, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530017.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+<center>7. Mar "Rojo" de Galarzamba</center>
+```{r image8, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530015.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+<center>8. Mar "Rojo" de Galarzamba</center>
+```{r image9, echo=FALSE, out.width="70%", fig.align='center'}
+
+a <- "cartagena/07530014.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+  <center>9. Ventana al Mundo, Barranquilla, Colombia</center>
+```{r image10, echo=FALSE, out.width="70%", fig.align='center'}
+
+a <- "cartagena/07530013.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+  <center>10. Playa de Boca Grande</center>
+```{r image11, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530018.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+  <center>11. Playa de San Andres</center>
+```{r image12, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530011.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+  <center>12. Playa de San Andres</center>
+```{r image13, echo=FALSE, out.width="70%", fig.align='center'}
+
+a <- "cartagena/07530009.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+  <center>13. Fritanga</center>
+```{r image14, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530008.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+  <center>14. Playa Isla de Jhonny Cay</center>
+```{r image15, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530007.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+  <center>15. Almuerzo Corriente de 7 Mil Pesos</center>
+```{r image16, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530002.JPG"
+knitr::include_graphics(a)
+
+```
+
+<br>
+
+  <center>16. Las Fruticas de la Calle</center>
+```{r image17, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530003.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+  <center>17. El Malecón de San Andres</center>
+```{r image18, echo=FALSE, out.width="70%", fig.align='center'}
+
+a <- "cartagena/07530004.JPG"
+knitr::include_graphics(a)
+
+```
+<br>
+
+  <center>18. Azoteas de Cartagena</center>
+```{r image19, echo=FALSE, out.width="100%", fig.align='center'}
+
+a <- "cartagena/07530001.JPG"
+knitr::include_graphics(a)
+
+```
+<br></b>
