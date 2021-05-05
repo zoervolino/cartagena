@@ -48,10 +48,9 @@ h3,h4,h5,h6{
   color:Violet;
 }
 
-h7{
-  font-family: 3Dumb;
-  font-size: 38pt;
-  color:MidnightBlue;
+a1{
+  font-size: 34px;
+  font-family: WarioLand4CHMC;
+  text-align:center;
+  color:DarkSlateGrey;
 }
-
- `r emo::ji("dizzy")`

@@ -33,12 +33,16 @@ library(emo)
 library(rmdprotectr)
 library(rmarkdown)
 ```
-
-<font size=80>
+<a href="https://zoervolino.github.io/zoe/"><font size=80>
 <h1 style=>
-`r emo::ji("dizzy")`ZME`r emo::ji("dizzy")`
+ZOE `r emo::ji("dizzy")` ERVOLINO
 </h1>
-</font>
+</font></a>
+
+<small><small><a href="design.html"><i>ART</a>  </i></small></small> 
+<small><small><a href="about.html"><i>ABOUT</a>  </i></small> 
+<small><a href="contact.html"><i>CONTACT</a>  </i></small> 
+<small><a href="https://tinyletter.com/unfriendlybrujita/archive"><i>ARCHIVE</a>  </i></small> 
 
 ```{r image1, echo=FALSE, out.width="100%", fig.align='center'}
 
@@ -47,10 +51,10 @@ knitr::include_graphics(fruta)
 
 ```
 
-<h2>ZOE MORALES ERVOLINO</h2> <h3> is a person doing person things. Enjoy the film photography she captured during her recent voyages to the Colombian coastal cities of Cartagena, Barranquilla, and the nearby island of San Andres.</h3>
+<a href="https://zoervolino.github.io/zoe/">Zoe Morales Ervolino</a><a1> is a person doing person things. Enjoy the film photography she captured during her recent voyages to the Colombian coastal cities of Cartagena, Barranquilla, and the island of San Andres.</a1>
 
 <br>
-<b><center>   1. Mercado de Bazurto</center>
+<b><center>Mercado de Bazurto</center>
 ```{r image2, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530023.JPG"
@@ -58,7 +62,7 @@ knitr::include_graphics(a)
 
 ```
 <br>
-<center>    2. Mangostino</center>
+<center>Mangostino</center>
 
 ```{r image3, echo=FALSE, out.width="70%", fig.align='center'}
 
@@ -68,7 +72,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-<center>    3. Bazurto</center>
+<center>Bazurto</center>
 ```{r image4, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530021.JPG"
@@ -77,7 +81,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
- <center>   4. Almuerzo Estilo Caleño</center>
+ <center>Almuerzo Estilo Caleño</center>
 ```{r image5, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530020.JPG"
@@ -86,7 +90,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-<center>  5. Centro Comercial La Castellana</center>
+<center>Centro Comercial La Castellana</center>
 
 ```{r image6, echo=FALSE, out.width="70%", fig.align='center'}
 
@@ -97,7 +101,7 @@ knitr::include_graphics(a)
 
 <br>
 
-  <center>6. Carnicería</center>
+  <center>Carnicería</center>
 ```{r image7, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530017.JPG"
@@ -106,7 +110,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-<center>7. Mar "Rojo" de Galarzamba</center>
+<center>Mar Salinas de Galarzamba</center>
 ```{r image8, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530015.JPG"
@@ -115,7 +119,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-<center>8. Mar "Rojo" de Galarzamba</center>
+<center>Mar "Rojo" de Galarzamba</center>
 ```{r image9, echo=FALSE, out.width="70%", fig.align='center'}
 
 a <- "cartagena/07530014.JPG"
@@ -124,7 +128,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-  <center>9. Ventana al Mundo, Barranquilla, Colombia</center>
+  <center>Ventana al Mundo, Barranquilla, Colombia</center>
 ```{r image10, echo=FALSE, out.width="70%", fig.align='center'}
 
 a <- "cartagena/07530013.JPG"
@@ -133,7 +137,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-  <center>10. Playa de Boca Grande</center>
+  <center>Playa de Boca Grande</center>
 ```{r image11, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530018.JPG"
@@ -142,7 +146,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-  <center>11. Playa de San Andres</center>
+  <center>Playa de San Andres</center>
 ```{r image12, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530011.JPG"
@@ -151,7 +155,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-  <center>12. Playa de San Andres</center>
+  <center>Zoeita en la Playita</center>
 ```{r image13, echo=FALSE, out.width="70%", fig.align='center'}
 
 a <- "cartagena/07530009.JPG"
@@ -160,7 +164,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-  <center>13. Fritanga</center>
+  <center>Fritanga</center>
 ```{r image14, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530008.JPG"
@@ -169,8 +173,8 @@ knitr::include_graphics(a)
 ```
 <br>
 
-  <center>14. Playa Isla de Jhonny Cay</center>
-```{r image15, echo=FALSE, out.width="100%", fig.align='center'}
+  <center>Playa Isla de Jhonny Cay</center>
+```{r image15, echo=FALSE, out.width="70%", fig.align='center'}
 
 a <- "cartagena/07530007.JPG"
 knitr::include_graphics(a)
@@ -178,7 +182,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-  <center>15. Almuerzo Corriente de 7 Mil Pesos</center>
+  <center>Almuerzo Corriente de 7 Mil Pesos</center>
 ```{r image16, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530002.JPG"
@@ -188,7 +192,7 @@ knitr::include_graphics(a)
 
 <br>
 
-  <center>16. Las Fruticas de la Calle</center>
+  <center>Las Fruticas de la Calle</center>
 ```{r image17, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530003.JPG"
@@ -197,7 +201,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-  <center>17. El Malecón de San Andres</center>
+  <center>Gentrificación</center>
 ```{r image18, echo=FALSE, out.width="70%", fig.align='center'}
 
 a <- "cartagena/07530004.JPG"
@@ -206,7 +210,7 @@ knitr::include_graphics(a)
 ```
 <br>
 
-  <center>18. Azoteas de Cartagena</center>
+  <center>Azoteas de Cartagena</center>
 ```{r image19, echo=FALSE, out.width="100%", fig.align='center'}
 
 a <- "cartagena/07530001.JPG"
