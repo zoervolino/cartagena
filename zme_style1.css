@@ -1,17 +1,11 @@
 
 @font-face {
-    font-family: 'AerologicaRegular-K7day';
-    src: url("/Users/zoeervolino/Documents/zoe/AerologicaRegular-K7day.ttf") format('truetype');
+    font-family: 'FontsFree-Net-PanAmTextCaps';
+    src: url("/Users/zoeervolino/Documents/zoe/cartagena-site/FontsFree-Net-PanAmTextCaps copy.ttf") format('truetype');
     font-weight: thin;
     font-style: normal;
 }
 
-@font-face {
-    font-family: '3Dumb';
-    src: url("/Users/zoeervolino/Documents/zoe/3Dumb.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'WarioLand4CHMC';
@@ -28,14 +22,14 @@ body{
 }
 
 h1{
-  font-family: AerologicaRegular-K7day;
-  font-size: 60pt;
+  font-family: FontsFree-Net-PanAmTextCaps;
+  font-size: 35pt;
   font-weight: thin;
   color:Teal;
 }
 
 h2{
-  font-family: AerologicaRegular-K7day;
+  font-family: Galacticagrid-8Mr7J;
   font-size: 50pt;
   font-weight: thin;
   color:Purple;
@@ -52,5 +46,6 @@ a1{
   font-size: 34px;
   font-family: WarioLand4CHMC;
   text-align:center;
-  color:DarkSlateGrey;
+  color:Navy;
 }
+
