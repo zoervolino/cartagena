@@ -47,15 +47,7 @@ library(rmarkdown)
 <small><small><a href="https://tinyletter.com/unfriendlybrujita/archive"><i>ARCHIVE</a>  </i></small></small>
 </small>
 </a2>  
-
-
-```{r image1, echo=FALSE, out.width="100%", fig.align='center'}
-
-fruta <- "cartagena/07530025.JPG"
-knitr::include_graphics(fruta)
-
-```
-
+<br>
 <a href="https://zoervolino.github.io/zoe/">Zoe Morales Ervolino</a> <a1><small>is a person doing person things. Enjoy the film photography she captured during her recent voyages to the Colombian coastal cities of Cartagena, Barranquilla, and the nearby island of San Andres.</a1></small>
 
 <br>
